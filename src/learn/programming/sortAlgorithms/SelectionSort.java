@@ -1,4 +1,4 @@
-package learn.programming.dataStuctureAndAlgorithms;
+package learn.programming.sortAlgorithms;
 
 import java.util.Arrays;
 
