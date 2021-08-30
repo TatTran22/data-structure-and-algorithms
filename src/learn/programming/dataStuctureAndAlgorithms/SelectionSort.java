@@ -3,7 +3,7 @@ package learn.programming.dataStuctureAndAlgorithms;
 import java.util.Arrays;
 
 public class SelectionSort {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
 
@@ -14,9 +14,9 @@ public class SelectionSort {
                     maxIndex = i;
                 }
             }
+
             swap(intArray, maxIndex, lastUnsortedIndex);
         }
-
         System.out.println("Sorted Array: " + Arrays.toString(intArray));
     }
 
@@ -24,6 +24,7 @@ public class SelectionSort {
         if (i == j) {
             return;
         }
+
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
