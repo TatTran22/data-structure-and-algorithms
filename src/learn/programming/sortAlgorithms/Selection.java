@@ -2,22 +2,24 @@ package learn.programming.sortAlgorithms;
 
 import java.util.Arrays;
 
-public class SelectionSort {
-    public static void main(String[] args){
+public class Selection {
+    public static void main(String[] args) {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
+        SelectionSort(intArray);
+        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+    }
 
-        for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+    public static void SelectionSort(int[] array) {
+        for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             int maxIndex = 0;
             for (int i = 1; i <= lastUnsortedIndex; i++) {
-                if (intArray[i] > intArray[maxIndex]) {
+                if (array[i] > array[maxIndex]) {
                     maxIndex = i;
                 }
             }
-
-            swap(intArray, maxIndex, lastUnsortedIndex);
+            swap(array, maxIndex, lastUnsortedIndex);
         }
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
     }
 
     public static void swap(int[] array, int i, int j) {
