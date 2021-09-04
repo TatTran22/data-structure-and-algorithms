@@ -7,7 +7,7 @@ public class Selection {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
         SelectionSort(intArray);
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+        System.out.println("Array after using Selection sort: " + Arrays.toString(intArray));
     }
 
     public static void SelectionSort(int[] array) {

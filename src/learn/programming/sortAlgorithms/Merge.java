@@ -7,7 +7,7 @@ public class Merge {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
         MergeSort(intArray, 0, intArray.length);
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+        System.out.println("Array after using Merge sort: " + Arrays.toString(intArray));
     }
 
     public static void MergeSort(int[] input, int start, int end) {

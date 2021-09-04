@@ -7,7 +7,7 @@ public class Quick {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
         QuickSort(intArray, 0, intArray.length);
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+        System.out.println("Array after using Quick sort: " + Arrays.toString(intArray));
     }
 
     public static void QuickSort(int[] input, int start, int end){

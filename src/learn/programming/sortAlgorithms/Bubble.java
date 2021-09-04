@@ -7,7 +7,7 @@ public class Bubble {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
         BubbleSort(intArray);
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+        System.out.println("Array after using Bubble sort: " + Arrays.toString(intArray));
     }
 
     public static void BubbleSort(int[] array){

@@ -7,7 +7,7 @@ public class Shell {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
         ShellSort(intArray);
-        System.out.println("Sorted Array: " + Arrays.toString(intArray));
+        System.out.println("Array after using Shell sort: " + Arrays.toString(intArray));
     }
 
     public static void ShellSort(int[] array) {
