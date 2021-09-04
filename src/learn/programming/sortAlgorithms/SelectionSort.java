@@ -18,9 +18,9 @@ import java.util.Arrays;
 public class SelectionSort {
     public static void main(String[] args) {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
-        System.out.printf("Original Array:\t\t\t\t\t\t %s\n", Arrays.toString(intArray));
+        System.out.printf("Original Array:\t\t\t\t\t\t%s\n", Arrays.toString(intArray));
         selectionSort(intArray);
-        System.out.printf("Array after using Selection Sort:\t %s\n", Arrays.toString(intArray));
+        System.out.printf("Array after using Selection Sort:\t%s\n", Arrays.toString(intArray));
     }
 
     /**
