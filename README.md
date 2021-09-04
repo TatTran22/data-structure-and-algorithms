@@ -6,14 +6,14 @@
 
 ### Overview 📖
 
-- [Stable Sort vs Unstable Sort](#stable-sort-vs-unstable-sort)
-- [Bubble Sort](#bubble-sort)
-- [Selection Sort](#selection-sort)
-- [Insertion Sort](#insertion-sort)
-- [Shell Sort](#shell-sort)
-- [Merge Sort](#merge-sort)
-- [Quick Sort](#quick-sort)
-- [Counting Sort](#counting-sort)
+- [Stable Sort vs Unstable Sort](#1-stable-sort-vs-unstable-sort)
+- [Bubble Sort](#2-bubble-sort)
+- [Selection Sort](#3-selection-sort)
+- [Insertion Sort](#4-insertion-sort)
+- [Shell Sort](#5-shell-sort)
+- [Merge Sort](#6-merge-sort)
+- [Quick Sort](#7-quick-sort)
+- [Counting Sort](#8-counting-sort)
 
 ### 1. Stable Sort vs Unstable Sort
 
@@ -29,12 +29,13 @@
 
 #### _Which sorting algorithms are stable?_
 
-- Some Sorting Algorithms are stable by nature, such as [Bubble Sort](#bubble-sort), [Insertion Sort](#insertion-sort),
-  [Merge Sort](#merge-sort), [Counting Sort](#counting-sort) etc.
+- Some Sorting Algorithms are stable by nature, such as [Bubble Sort](#2-bubble-sort)
+  , [Insertion Sort](#4-insertion-sort),
+  [Merge Sort](#6-merge-sort), [Counting Sort](#8-counting-sort) etc.
 
 #### _Which sorting algorithms are unstable?_
 
-- [Quick Sort](#quick-sort), Heap Sort etc., can be made stable by also taking the position of the elements into
+- [Quick Sort](#7-quick-sort), Heap Sort etc., can be made stable by also taking the position of the elements into
   consideration. This change may be done in a way which does not compromise a lot on the performance and takes some
   extra space, possibly \theta(n).
 
