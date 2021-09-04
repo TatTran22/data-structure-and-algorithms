@@ -2,7 +2,7 @@
 
 #### Quick note by [**Tat Tran**](https://github.com/TatTran22)
 
-## 1. Sort Algorithms 📈
+## I. Sort Algorithms 📈
 
 ### Overview 📖
 
@@ -12,8 +12,10 @@
 - [Insertion Sort](#insertion-sort)
 - [Shell Sort](#shell-sort)
 - [Merge Sort](#merge-sort)
+- [Quick Sort](#quick-sort)
+- [Counting Sort](#counting-sort)
 
-### Stable Sort vs Unstable Sort
+### 1. Stable Sort vs Unstable Sort
 
 - A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as
   they appear in the input array to be sorted.
@@ -28,13 +30,13 @@
 #### _Which sorting algorithms are stable?_
 
 - Some Sorting Algorithms are stable by nature, such as [Bubble Sort](#bubble-sort), [Insertion Sort](#insertion-sort),
-  Merge Sort, Count Sort etc.
+  [Merge Sort](#merge-sort), [Counting Sort](#counting-sort) etc.
 
 #### _Which sorting algorithms are unstable?_
 
-- Quick Sort, Heap Sort etc., can be made stable by also taking the position of the elements into consideration. This
-  change may be done in a way which does not compromise a lot on the performance and takes some extra space, possibly
-  \theta(n).
+- [Quick Sort](#quick-sort), Heap Sort etc., can be made stable by also taking the position of the elements into
+  consideration. This change may be done in a way which does not compromise a lot on the performance and takes some
+  extra space, possibly \theta(n).
 
 #### _Can we make any sorting algorithm stable?_
 
@@ -43,14 +45,14 @@
   to be stable by changing the key comparison operation so that the comparison of two keys considers position as a
   factor for objects with equal keys.
 
-### Bubble Sort
+### 2. [Bubble Sort](./src/learn/programming/sortAlgorithms/BubbleSort.java)
 
 - In-place algorithm
 - O(n^2) time complexity - quadratic
 - It will take 100 steps to sort 10 items, 10,000 steps to sort 100 items, 1,000,000 steps to sort 1000 items
 - Algorithm degrades quickly
 
-### Selection Sort
+### 3. [Selection Sort](./src/learn/programming/sortAlgorithms/SelectionSort.java)
 
 - In-place algorithm
 - O(n^2) time complexity - quadratic
@@ -58,14 +60,14 @@
 - Doesn't require as much swapping as bubble sort
 - Unstable algorithm
 
-### Insertion Sort
+### 4. [Insertion Sort](./src/learn/programming/sortAlgorithms/InsertionSort.java)
 
 - In-place algorithm
 - O(n^2) time complexity - quadratic
 - It will take 100 steps to sort 10 items, 10,000 steps to sort 100 items, 1,000,000 steps to sort 1000 items
 - Stable algorithm
 
-### Shell Sort
+### 5. [Shell Sort](./src/learn/programming/sortAlgorithms/ShellSort.java)
 
 - In-place algorithm
 - Difficult to nail down the time complexity because it will depend on the gap. Worst case: O(n^2), but it can perform
@@ -73,19 +75,19 @@
 - Doesn't require as much shifting as insertion sort, so it usually performs better
 - Unstable algorithm
 
-### Merge Sort
+### 6. [Merge Sort](./src/learn/programming/sortAlgorithms/MergeSort.java)
 
 - NOT an in-place algorithm
 - O(nlogn) - base 2. We're repeatedly dividing the array in half during the splitting phase
 - Stable algorithm
 
-### Quick Sort
+### 7. [Quick Sort](./src/learn/programming/sortAlgorithms/QuickSort.java)
 
 - In-place algorithm
 - 0(nlogn) - base 2. We're repeatedly partitioning the array into two halves
 - Unstable algorithm
 
-### Counting Sort
+### 8. [Counting Sort](./src/learn/programming/sortAlgorithms/CountingSort.java)
 
 - NOT an in-place algorithm
 - O(n) - can achieve this because we're making assumptions about the data we're sorting

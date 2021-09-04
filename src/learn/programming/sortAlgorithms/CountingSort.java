@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021.
+ * Copyright (c) 2021-2021.
  * @author Tat Tran (https://github.com/TatTran22)
  *
  */
@@ -46,6 +46,5 @@ public class CountingSort {
                 countArray[i - min]--;
             }
         }
-
     }
 }
