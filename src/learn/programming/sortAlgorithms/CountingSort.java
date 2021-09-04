@@ -16,9 +16,9 @@ import java.util.Arrays;
 public class CountingSort {
     public static void main(String[] args) {
         int[] intArray = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3};
-        System.out.println("Original Array: " + Arrays.toString(intArray));
+        System.out.printf("Original Array:\t\t\t\t\t\t%s\n", Arrays.toString(intArray));
         countingSort(intArray, 1, 10);
-        System.out.println("Array after using Counting sort: " + Arrays.toString(intArray));
+        System.out.printf("Array after using Counting Sort:\t%s\n", Arrays.toString(intArray));
     }
 
     /**

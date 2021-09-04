@@ -16,9 +16,9 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
-        System.out.println("Original Array: " + Arrays.toString(intArray));
+        System.out.printf("Original Array:\t\t\t\t\t %s\n", Arrays.toString(intArray));
         quickSort(intArray, 0, intArray.length);
-        System.out.println("Array after using Quick sort: " + Arrays.toString(intArray));
+        System.out.printf("Array after using Quick Sort:\t %s\n", Arrays.toString(intArray));
     }
 
     /**
