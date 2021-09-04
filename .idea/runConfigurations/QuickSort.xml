@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Selection" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.Selection" />
+  <configuration default="false" name="QuickSort" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.QuickSort" />
     <module name="Data Structure and Algorithms" />
     <extension name="coverage">
       <pattern>

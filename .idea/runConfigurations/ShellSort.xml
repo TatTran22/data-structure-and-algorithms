@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Shell" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.Shell" />
+  <configuration default="false" name="ShellSort" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.ShellSort" />
     <module name="Data Structure and Algorithms" />
     <extension name="coverage">
       <pattern>

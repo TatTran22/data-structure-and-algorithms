@@ -1,7 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Insertion" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.Insertion" />
+  <configuration default="false" name="BubbleSort" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.BubbleSort" />
     <module name="Data Structure and Algorithms" />
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="learn.programming.sortAlgorithms.*" />

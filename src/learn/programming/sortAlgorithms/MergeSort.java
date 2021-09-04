@@ -1,26 +1,48 @@
+/*
+ * Copyright (c) 2021.
+ * @author Tat Tran (https://github.com/TatTran22)
+ *
+ */
+
 package learn.programming.sortAlgorithms;
 
 import java.util.Arrays;
 
-public class Merge {
+/**
+ * NOT an in-place algorithm
+ * O(nlogn) - base 2. We're repeatedly dividing the array in half during the splitting phase
+ * Stable algorithm
+ */
+public class MergeSort {
     public static void main(String[] args) {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
         System.out.println("Original Array: " + Arrays.toString(intArray));
-        MergeSort(intArray, 0, intArray.length);
+        mergeSort(intArray, 0, intArray.length);
         System.out.println("Array after using Merge sort: " + Arrays.toString(intArray));
     }
 
-    public static void MergeSort(int[] input, int start, int end) {
+    /**
+     * @param input input array
+     * @param start start index
+     * @param end   end index
+     */
+    public static void mergeSort(int[] input, int start, int end) {
         if (end - start < 2) {
             return;
         }
         int mid = (start + end) / 2;
-        MergeSort(input, start, mid);
-        MergeSort(input, mid, end);
-        Merger(input, start, mid, end);
+        mergeSort(input, start, mid);
+        mergeSort(input, mid, end);
+        merge(input, start, mid, end);
     }
 
-    public static void Merger(int[] input, int start, int mid, int end) {
+    /**
+     * @param input input array
+     * @param start start index
+     * @param mid   mid index
+     * @param end   end index
+     */
+    public static void merge(int[] input, int start, int mid, int end) {
         if (input[mid - 1] <= input[mid]) {
             return;
         }

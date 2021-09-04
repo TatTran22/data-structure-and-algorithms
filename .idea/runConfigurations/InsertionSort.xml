@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Quick" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.Quick" />
+  <configuration default="false" name="InsertionSort" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="learn.programming.sortAlgorithms.InsertionSort" />
     <module name="Data Structure and Algorithms" />
     <extension name="coverage">
       <pattern>
