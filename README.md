@@ -14,6 +14,7 @@
 - [Merge Sort](#6-merge-sort)
 - [Quick Sort](#7-quick-sort)
 - [Counting Sort](#8-counting-sort)
+- [Radix Sort](#9-radix-sort)
 
 ### 1. Stable Sort vs Unstable Sort
 
@@ -93,3 +94,11 @@
 - NOT an in-place algorithm
 - O(n) - can achieve this because we're making assumptions about the data we're sorting
 - If we want the sort to be stable, we have to do some extra steps
+
+### 9. [Radix Sort](./src/learn/programming/sortAlgorithms/RadixSort.java)
+
+- Counting sort is often used as sort algorithm for radix sort - must be stable counting sort
+- O(n) - can achieve this because we're making assumptions about the data we'er sorting
+- Even so, it often runs slower than O(nlogn) algorithms because of the overhead involed.
+- In-place depends on which sort algorithm you use
+- Stable algorithm
