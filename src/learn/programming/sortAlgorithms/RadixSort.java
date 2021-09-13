@@ -18,9 +18,9 @@ import java.util.Arrays;
 public class RadixSort {
     public static void main(String[] args) {
         int[] intArray = {4725, 4586, 1330, 8792, 1594, 5729};
-        System.out.printf("Original Array:\t\t\t\t\t%s\n", Arrays.toString(intArray));
+        System.out.printf("Original Array:\n%s\n", Arrays.toString(intArray));
         radixSort(intArray, 10, 4);
-        System.out.printf("Array after using Shell Sort:\t%s\n", Arrays.toString(intArray));
+        System.out.printf("Array after using Shell Sort:%s", Arrays.toString(intArray));
     }
 
     /**
