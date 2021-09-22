@@ -17,9 +17,9 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] intArray = {23, 1, 55, -5, 0, 77, -99};
-        System.out.printf("Original Array:\t\t\t\t\t\t%s\n", Arrays.toString(intArray));
+        System.out.printf("Original Array:\n%s\n", Arrays.toString(intArray));
         insertionSort(intArray);
-        System.out.printf("Array after using Insertion Sort:\t%s\n", Arrays.toString(intArray));
+        System.out.printf("Array after using Insertion Sort:\n%s\n", Arrays.toString(intArray));
     }
 
     /**
