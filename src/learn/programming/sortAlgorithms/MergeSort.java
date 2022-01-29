@@ -25,6 +25,7 @@ public class MergeSort {
      * @param input input array
      * @param start start index
      * @param end   end index
+     * @param asc   true if ascending, false if descending
      */
     public static void mergeSort(int[] input, int start, int end, boolean asc) {
         if (end - start < 2) {
@@ -41,6 +42,7 @@ public class MergeSort {
      * @param start start index
      * @param mid   mid index
      * @param end   end index
+     * @param asc   true if ascending, false if descending
      */
     public static void merge(int[] input, int start, int mid, int end, boolean asc) {
         if(asc) {

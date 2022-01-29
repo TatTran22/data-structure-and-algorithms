@@ -20,7 +20,7 @@ public class RadixSort {
         int[] intArray = {4725, 4586, 1330, 8792, 1594, 5729};
         System.out.printf("Original Array:\n%s\n", Arrays.toString(intArray));
         radixSort(intArray, 10, 4);
-        System.out.printf("Array after using Shell Sort:\n%s\n", Arrays.toString(intArray));
+        System.out.printf("Array after using Radix Sort:\n%s\n", Arrays.toString(intArray));
     }
 
     /**
